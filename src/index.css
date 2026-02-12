@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&family=UnifrakturMaguntia&family=VT323&display=swap');
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
+  cursor: crosshair;
+}
+
+body {
+  font-family: 'VT323', monospace;
+}
+
+button, a {
+  cursor: pointer;
+}
+
+.font-gothic {
+  font-family: 'UnifrakturMaguntia', cursive;
+}
+
+.font-cursive {
+  font-family: 'Pinyon Script', cursive;
+}
